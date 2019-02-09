@@ -1,0 +1,25 @@
+{
+  "name": "@realdennis/use-resize",
+  "version": "0.0.5",
+  "description": "React hook for window resize using use-event-target.",
+  "main": "./src/index.js",
+  "keywords": [
+    "react-hooks",
+    "resize",
+    "window",
+    "events",
+    "cleanup"
+  ],
+  "author": "@realdennis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realdennis/useResize.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "use-event-target": "^1.1.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
