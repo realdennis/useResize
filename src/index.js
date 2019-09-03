@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import useEventTarget from 'use-event-target';
-const useWindow = useEventTarget(window);
+import createEventTargetHook from 'create-event-target-hook';
+const useWindow = createEventTargetHook(window);
 const useResize = () => {
   const [size, setSize] = useState({
     width: window.innerWidth,
